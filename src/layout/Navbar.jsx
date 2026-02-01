@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="md:hidden glass-strong animation-fade-in">
           <div className="px-6 py-6 container mx-auto flex flex-col gap-4">
             {navLinks.map((link) => (
-              <a
+              <a onClick={()=> setIsMobileMenuOpen(false)}
                 className="text-lg text-muted-foreground hover:text-foreground"
                 key={link.label}
                 href={link.href}
@@ -70,7 +70,7 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <div>
+            <div onClick={()=> setIsMobileMenuOpen(false)}>
               <Button className="container" size="sm">
                 Contact Me
               </Button>
