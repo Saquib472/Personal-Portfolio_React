@@ -66,3 +66,11 @@ export const highlights = [
       "Staying ahead with the latest technologies and best practices.",
   },
 ];
+
+export const projects = [
+  {
+    title : 'Netflix GPT',
+    decription : '',
+    
+  }
+]
