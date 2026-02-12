@@ -29,15 +29,25 @@
     - Experience
     - Testimonials
     - Contact
+- Folder > components
+    - AnimatedBorderButton
+    - Button
+- Folder > utils
+    - constant.js
 
 ## Navbar
 - LOGO
 - Nav Items
 - Contact Me Button : Creating Button Component.
 - Mobile Menu
-- npm i lucid-react for Icons.
-- Check index.css for animation of the NavMenu which is opening by clicking the Hamburger Menu.
+- npm i `lucid-react` for Icons.
+- Check `index.css` for `animation` of the NavMenu which is opening by clicking the Hamburger Menu.
 - Using md: for Dynamically handle the Responsiveness.
+- While ScrollY > 50 the background change and padding change using a flag isScrolled.
 
 ## Hero Section
-- 
+- Background Image set.
+- Background Green Dot set.
+- Left Section
+    - Animated Button created.
+- Right Section

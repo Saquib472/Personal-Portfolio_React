@@ -79,11 +79,37 @@ export const projects = [
   {
     title: "Netflix GPT",
     decription:
-      "a Netflix Clone project with dynamic and responsive web design using REACT + CREATE-REACT-APP, having features like :-) Sign Up / Sign In Authentication build with GOOGLE FIREBASE, State management using REDUX, by fetching real data from TMDB API for Movies, using YouTube iframe to show the background running Trailer. Optimized Performance using Memoization and Lazy Loading and caching. Movie Suggestion Page using Open AI Gpt API where by giving the API key of Open API you can get 5 movie suggestions by binding it with TMDB movie API getting results for the same. UI design with Tailwindcss. Language Toggle Feature.",
+      "A Netflix Clone project with dynamic and responsive web design, having features like- Sign Up/Sign In Authentication build with GOOGLE FIREBASE, State management using REDUX, by fetching real data from TMDB API for Movies, using YouTube iframe to show the background running Trailer. Optimized Performance using Memoization and Lazy Loading and caching. Movie Suggestion Page using Open AI Gpt API where by giving the API key of Open API you can get 5 movie suggestions by binding it with TMDB movie API getting results for the same. UI design with Tailwindcss. Language Toggle Feature.",
     image: '/public/netflixGpt.jpg',
     tags: ['React', 'Redux', 'TailwindCss', 'Google Firebase', 'Webpack', 'TMDB API', 'Open AI'],
     link: 'https://netflixgpt-2ea89.web.app/',
     github: 'https://github.com/Saquib472/NetflixGPT_Project'
   },
-  
+  {
+    title: "Netflix GPT",
+    decription:
+      "TMDB API for Movies, using YouTube iframe to show the background running Trailer. Optimized Performance using Memoization and Lazy Loading and caching. Movie Suggestion Page using Open AI Gpt API where by giving the API key of Open API you can get 5 movie suggestions by binding it with TMDB movie API getting results for the same. UI design with Tailwindcss. Language Toggle Feature.",
+    image: '/public/netflixGpt.jpg',
+    tags: ['React', 'Redux', 'TailwindCss', 'Google Firebase', 'Webpack', 'TMDB API', 'Open AI'],
+    link: 'https://netflixgpt-2ea89.web.app/',
+    github: 'https://github.com/Saquib472/NetflixGPT_Project'
+  },
+  {
+    title: "Netflix GPT",
+    decription:
+      "A Netflix Clone project with dynamic and responsive web design, having features like- Sign Up/Sign In Authentication build with GOOGLE FIREBASE, State management using REDUX, by fetching real data from TMDB API for Movies, using YouTube iframe to show the background running Trailer. Optimized Performance using Memoization and Lazy Loading and caching. Movie Suggestion Page using Open AI Gpt API where by giving the API key of Open API you can get 5 movie suggestions by binding it with TMDB movie API getting results for the same. UI design with Tailwindcss. Language Toggle Feature.",
+    image: '/public/netflixGpt.jpg',
+    tags: ['React', 'Redux', 'TailwindCss', 'Google Firebase', 'Webpack', 'TMDB API', 'Open AI'],
+    link: 'https://netflixgpt-2ea89.web.app/',
+    github: 'https://github.com/Saquib472/NetflixGPT_Project'
+  },
+  {
+    title: "Netflix GPT",
+    decription:
+      "A Netflix Clone project with dynamic and responsive web design, having features like- Sign Up/Sign In Authentication build with GOOGLE FIREBASE, State management using REDUX, by fetching real data from TMDB API for Movies, using YouTube iframe to show the background running Trailer. Optimized Performance using Memoization and Lazy Loading and caching. Movie Suggestion Page using Open AI Gpt API where by giving the API key of Open API you can get 5 movie suggestions by binding it with TMDB movie API getting results for the same. UI design with Tailwindcss. Language Toggle Feature.",
+    image: '/public/netflixGpt.jpg',
+    tags: ['React', 'Redux', 'TailwindCss', 'Google Firebase', 'Webpack', 'TMDB API', 'Open AI'],
+    link: 'https://netflixgpt-2ea89.web.app/',
+    github: 'https://github.com/Saquib472/NetflixGPT_Project'
+  },
 ];

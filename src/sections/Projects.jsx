@@ -1,4 +1,6 @@
+import { ArrowUpRight, Github } from "lucide-react";
 import { projects } from "../utils/constant";
+import AnimatedBorderButton from "@/components/AnimatedBorderButton";
 
 const Projects = () => {
   return (
@@ -44,11 +46,33 @@ const Projects = () => {
                     bg-linear-to-t from-card via-card/50
                     to-transparent opacity-60"
                     />
+                    {/* Overlay Links   */}
+                    <div className="absolute inset-0 flex justify-center items-center gap-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
+                      <a href={project.link} className="glass rounded-full p-3 hover:bg-primary hover:text-primary-foreground transition-all"><ArrowUpRight className="w-5 h-5"/></a>
+                      <a href={project.github} className="glass rounded-full p-3 hover:bg-primary hover:text-primary-foreground transition-all"><Github className="w-5 h-5"/></a>
+                    </div>
+                  </div>
+                  {/* Content */}
+                  <div className="p-6 space-y-4">
+                    <div className="flex items-start justify-between">
+                      <h3 className="text-xl font-semibold group-hover:text-primary">{project.title}</h3>
+                      <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 group-hover:-translate-y-1 transition-all"/>
+                    </div>
+                    <p className="text-sm text-muted-foreground">{project.decription}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {
+                        project.tags.map((tag, tagIdx) => <span className="px-4 py-1.5 rounded-full bg-surface text-muted-foreground text-xs font-medium border border-border/50 hover:border-primary/50  hover:text-primary transition-all duration-300" key={tagIdx}>{tag}</span>)
+                      }
+                    </div>
                   </div>
                 </div>
               )
             })
           }
+        </div>
+        {/* CTA Button */}
+        <div className="mt-12 text-center animation-fade-in animation-delay-500">
+          <AnimatedBorderButton>View All Projects <ArrowUpRight className="w-5 h-5" /></AnimatedBorderButton>
         </div>
       </div>
     </section>
